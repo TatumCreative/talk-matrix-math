@@ -1,5 +1,12 @@
 //-------------------------------------------------
-//Handwave here
+// Some urls:
+//
+// Matrix multiplication: https://www.youtube.com/watch?v=bFeM4ICRt0M
+//
+// This code: https://github.com/tatumcreative/talk-matrix-math
+
+//-------------------------------------------------
+// Magic some functions and values into existence
 
 function toThreeJsMatrix( array ) {
 	var mat = new THREE.Matrix4()
@@ -110,7 +117,7 @@ var c = twoPi * 0.0 // rotate z
 
 
 //-------------------------------------------------
-// The matrices
+// Create some matrices
 
 var identityMatrix = [
     1,    0,    0,    0,
