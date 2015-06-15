@@ -1,0 +1,15 @@
+{
+  "name": "matrix-talk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "all-matrices.js",
+  "scripts": {
+    "start": "budo all-matrices.js --live --verbose | garnish"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^4.0.0",
+    "garnish": "^2.1.3"
+  }
+}
